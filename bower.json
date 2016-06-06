@@ -5,7 +5,8 @@
   ],
   "description": "",
   "main": [
-    "assets/stylesheets/_main.scss"
+    "assets/stylesheets/_main.scss",
+    "app/index.module.js"
   ],
   "moduleType": [],
   "license": "MIT",
