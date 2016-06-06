@@ -4,7 +4,9 @@
     "Matthew Ehring <mehring@labtechsoftware.com>"
   ],
   "description": "",
-  "main": "",
+  "main": [
+    "assets/stylesheets/_main.scss"
+  ],
   "moduleType": [],
   "license": "MIT",
   "homepage": "http://www.connectwise.com/"
