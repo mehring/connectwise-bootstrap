@@ -1,3 +1,7 @@
+body > [uib-modal-window]:not([modal-render]) {
+  display: none;
+}
+
 a:hover { cursor: pointer; }
 .hover-cursor { cursor: pointer; }
 

@@ -3,7 +3,9 @@
 
     angular
         .module('cwbootstrap', [])
-        .filter('numericOnly', numericOnly);
+        .filter('numericOnly', numericOnly)
+        .directive('formLocator', formLocator)
+        .directive('ngEnter', ngEnter);
 
     function numericOnly() {
         var filter = function(input, allowDecimals) {
@@ -23,6 +25,30 @@
             }
         };
         return filter;
+    }
+
+    function formLocator() {
+        var directive = {
+            link: function(scope) {
+                scope.$emit('formLocator');
+            }
+        };
+        return directive;
+    }
+
+    function ngEnter() {
+        var directive = function(scope, element, attrs) {
+            element.bind("keydown keypress", function (event) {
+                if(event.which === 13) {
+                    scope.$apply(function (){
+                        scope.$eval(attrs.ngEnter);
+                    });
+
+                    event.preventDefault();
+                }
+            });
+        };
+        return directive;
     }
 
 })();
