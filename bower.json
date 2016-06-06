@@ -6,7 +6,7 @@
   "description": "",
   "main": [
     "assets/stylesheets/_main.scss",
-    "app/index.module.js"
+    "app/*.*"
   ],
   "moduleType": [],
   "license": "MIT",
