@@ -1,0 +1,11 @@
+{
+  "name": "connectwise-bootstrap",
+  "authors": [
+    "Matthew Ehring <mehring@labtechsoftware.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "http://www.connectwise.com/"
+}

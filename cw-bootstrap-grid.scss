@@ -1,0 +1,41 @@
+.ui-grid-row:nth-child(odd) .ui-grid-cell {
+  background-color: #FFFFFF;
+}
+
+.ui-grid-row:nth-child(even) .ui-grid-cell {
+  background-color: #F6F6F6;
+}
+
+.ui-grid-row-hover {
+  background-color: #FFEED5;
+}
+
+.ui-grid-row-selected {
+  background-color: #FFDCA8;
+}
+
+.ui-grid-row.ui-grid-row-selected > [ui-grid-row] > .ui-grid-cell {
+  background-color: #FFDCA8 !important;
+}
+
+.cwgrid-header-cell {
+  background-color: #E6EBF1 !important;
+  color: #004A78;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.cwgrid-header-dropdown {
+  width: 100%;
+}
+
+.cwgrid-header-text-field {
+  min-width: 0;
+  width: 100%;
+  margin: 6px 0 0 0;
+}
+
+.cw-selection-checkbox {
+  margin: 0 !important;
+}

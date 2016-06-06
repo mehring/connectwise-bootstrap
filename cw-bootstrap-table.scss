@@ -1,0 +1,30 @@
+.cwtable {
+
+  border: 1px solid #CCCCCC;
+
+  thead > tr > th {
+    background-color: #E6EBF1;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    color: #004A78;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  tbody > tr > td {
+    border-right: 1px solid #CCCCCC;
+  }
+
+}
+
+.cwtable.table-striped {
+  tbody > tr:nth-of-type(odd) {
+    background-color: #F6F6F6;
+  }
+}
+
+.cwtable.table-hover {
+  tbody > tr:hover {
+    background-color: #FFEED5;
+  }
+}

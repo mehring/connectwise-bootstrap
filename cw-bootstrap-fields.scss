@@ -1,0 +1,95 @@
+.cw-form {
+
+  .control-label {
+    padding-right: 8px;
+    padding-top: 4px;
+  }
+
+  .control-value {
+    padding-left: 0px;
+  }
+
+  .ng-invalid {
+    border: 1px solid #B20000 !important;
+  }
+
+  :disabled {
+    color: #5E5E5E;
+    background-color: #F8F8F8;
+  }
+
+}
+
+.cw-required-indicator {
+  font-size: 8px;
+  -moz-transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  position: relative;
+  top: -7px;
+}
+
+.cw-field-label {
+  font-weight: normal;
+}
+
+.cw-text-field {
+  background-color: #FFFFFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #000000;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid #B3B3B3 !important;
+  padding: 6px;
+  height: 24px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: block;
+  width: 100%;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+.cw-dropdown-container {
+  display: block;
+  width: 100%;
+}
+
+.cw-dropdown-field {
+  background-color: #FFFFFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #B3B3B3;
+  padding: 0;
+  height: 24px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: block;
+  width: 100%;
+  .caret {
+    position: relative;
+    left: -3px;
+  }
+}
+
+.cw-segmented-control {
+  label.active {
+    background: #dce6f0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #dce6f0 0%, #c9d5e0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #dce6f0 0%,#c9d5e0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #dce6f0 0%,#c9d5e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce6f0', endColorstr='#c9d5e0',GradientType=0 ); /* IE6-9 */
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+  }
+}
